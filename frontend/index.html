@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HR Routine Requests Resolver | Operations & Live Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Chart.js CDN for interactive visualizations -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <!-- Top Header Navigation -->
+  <header class="app-header">
+    <div class="header-container">
+      <div class="logo-area">
+        <div class="logo-badge">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+            <circle cx="9" cy="7" r="4"></circle>
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+          </svg>
+        </div>
+        <div>
+          <div class="brand-title">
+            HR Routine Requests Resolver
+            <span style="font-size: 0.65rem; background: #6366f1; padding: 2px 7px; border-radius: 9999px; text-transform: uppercase; font-weight: 700;">Hackathon v1.0</span>
+          </div>
+          <div class="brand-subtitle">Automated Classification, Policy Citation, Routing &amp; SLA Management</div>
+        </div>
+      </div>
+
+      <!-- Navigation Tabs -->
+      <nav class="nav-tabs">
+        <button class="tab-btn active" data-tab="tab-dashboard">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+          Dashboard
+        </button>
+        <button class="tab-btn" data-tab="tab-resolver">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+          Live Resolver Studio
+        </button>
+        <button class="tab-btn" data-tab="tab-tickets">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+          Ticket Explorer (<span id="tab-ticket-count">5,000</span>)
+        </button>
+        <button class="tab-btn" data-tab="tab-policies">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+          Policy Knowledge Base
+        </button>
+        <button class="tab-btn" data-tab="tab-validation">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+          Validation &amp; Audit
+        </button>
+      </nav>
+
+      <div class="header-meta">
+        <div class="status-pill" id="backend-status-pill">
+          <span class="status-pulse"></span>
+          <span id="backend-status-text">Connected: Local Engine</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="main-wrapper">
+
+    <!-- ==================== TAB 1: EXECUTIVE DASHBOARD ==================== -->
+    <section id="tab-dashboard" class="tab-content active">
+      <!-- KPI Metric Cards Grid -->
+      <div class="kpi-grid">
+        <div class="kpi-card" style="--kpi-accent: #4f46e5; --kpi-bg: #eef2ff;">
+          <div class="kpi-header">
+            <span class="kpi-label">Total Inquiries</span>
+            <div class="kpi-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+            </div>
+          </div>
+          <div class="kpi-value" id="kpi-total-tickets">5,000</div>
+          <div class="kpi-footer">
+            <span class="kpi-badge badge-blue">Synthetic Dataset</span> Across 12 Departments
+          </div>
+        </div>
+
+        <div class="kpi-card" style="--kpi-accent: #10b981; --kpi-bg: #ecfdf5;">
+          <div class="kpi-header">
+            <span class="kpi-label">Classification Accuracy</span>
+            <div class="kpi-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+            </div>
+          </div>
+          <div class="kpi-value" id="kpi-classification-rate">94.08%</div>
+          <div class="kpi-footer">
+            <span class="kpi-badge badge-green">4,704 classified</span> 296 flagged ambiguous
+          </div>
+        </div>
+
+        <div class="kpi-card" style="--kpi-accent: #059669; --kpi-bg: #d1fae5;">
+          <div class="kpi-header">
+            <span class="kpi-label">SLA Compliance</span>
+            <div class="kpi-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+            </div>
+          </div>
+          <div class="kpi-value" id="kpi-sla-compliance">92.60%</div>
+          <div class="kpi-footer">
+            <span class="kpi-badge badge-green">4,630 Met</span> 370 Breaches tracked
+          </div>
+        </div>
+
+        <div class="kpi-card" style="--kpi-accent: #8b5cf6; --kpi-bg: #f5f3ff;">
+          <div class="kpi-header">
+            <span class="kpi-label">Policy Answers</span>
+            <div class="kpi-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg>
+            </div>
+          </div>
+          <div class="kpi-value" id="kpi-policy-answers">3,758</div>
+          <div class="kpi-footer">
+            <span class="kpi-badge badge-purple">75.16% Automated</span> Valid policy citation verified
+          </div>
+        </div>
+
+        <div class="kpi-card" style="--kpi-accent: #e11d48; --kpi-bg: #ffe4e6;">
+          <div class="kpi-header">
+            <span class="kpi-label">Sensitive Escalations</span>
+            <div class="kpi-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+            </div>
+          </div>
+          <div class="kpi-value" id="kpi-sensitive-tickets">946</div>
+          <div class="kpi-footer">
+            <span class="kpi-badge badge-rose">100% Restricted</span> Locked to HR_EMPLOYEE_RELATIONS
+          </div>
+        </div>
+
+        <div class="kpi-card" style="--kpi-accent: #f59e0b; --kpi-bg: #fef3c7;">
+          <div class="kpi-header">
+            <span class="kpi-label">Smart Router Correction</span>
+            <div class="kpi-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
+            </div>
+          </div>
+          <div class="kpi-value" id="kpi-mismatch-rate">21.78%</div>
+          <div class="kpi-footer">
+            <span class="kpi-badge badge-amber">1,089 Redirected</span> From General to Specialist Queue
+          </div>
+        </div>
+      </div>
+
+      <!-- Charts Row 1 -->
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-title">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path><path d="M22 12A10 10 0 0 0 12 2v10z"></path></svg>
+            Inquiries by HR Category
+          </div>
+          <div class="card-subtitle">Distribution across Benefits, Leave, Payroll, Onboarding, and Sensitive Relations</div>
+          <div class="chart-box">
+            <canvas id="categoryChart"></canvas>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-title">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+            SLA Performance by Priority
+          </div>
+          <div class="card-subtitle">Met vs Breached compliance ratio across Critical (8h), High (24h), Med (40h), Low (80h)</div>
+          <div class="chart-box">
+            <canvas id="slaChart"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- Charts Row 2 -->
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-title">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+            Resolution Engine Decisions
+          </div>
+          <div class="card-subtitle">Policy Auto-Answer vs Escalation vs Clarification Request</div>
+          <div class="chart-box">
+            <canvas id="decisionChart"></canvas>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-title">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+            Smart Routing Queue Allocation
+          </div>
+          <div class="card-subtitle">Automated dispatch to specialized HR departmental units</div>
+          <div class="chart-box">
+            <canvas id="queueChart"></canvas>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ==================== TAB 2: LIVE RESOLVER STUDIO ==================== -->
+    <section id="tab-resolver" class="tab-content">
+      <div class="resolver-container">
+        <!-- Input Form Side -->
+        <div class="card">
+          <div class="card-title">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+            Interactive Query Tester
+          </div>
+          <div class="card-subtitle">Submit routine employee inquiries or test boundary conditions in real time</div>
+
+          <!-- Quick Presets -->
+          <div class="form-label">Quick Test Scenarios:</div>
+          <div class="preset-strip">
+            <div class="preset-chip" data-preset="benefits">
+              <span>🩺 Health Insurance</span>
+            </div>
+            <div class="preset-chip" data-preset="harassment">
+              <span>🛑 Misconduct Report</span>
+            </div>
+            <div class="preset-chip" data-preset="ambiguous">
+              <span>❓ Vague Request</span>
+            </div>
+            <div class="preset-chip" data-preset="payroll">
+              <span>💰 Tax Cutoff</span>
+            </div>
+            <div class="preset-chip" data-preset="leave">
+              <span>🌴 Annual Leave</span>
+            </div>
+          </div>
+
+          <form id="resolver-form">
+            <div class="form-group">
+              <label class="form-label" for="sim-description">Employee Inquiry Description *</label>
+              <textarea class="form-textarea" id="sim-description" rows="4" placeholder="e.g. Can I add my newborn child to my company health insurance policy?" required>Can I add my newborn child to my health insurance coverage?</textarea>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="sim-confidentiality">Confidentiality</label>
+                <select class="form-select" id="sim-confidentiality">
+                  <option value="Internal" selected>Internal (Standard)</option>
+                  <option value="Restricted">Restricted (Confidential / Sensitive)</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="sim-priority">Priority</label>
+                <select class="form-select" id="sim-priority">
+                  <option value="Critical">Critical (8h SLA)</option>
+                  <option value="High">High (24h SLA)</option>
+                  <option value="Medium" selected>Medium (40h SLA)</option>
+                  <option value="Low">Low (80h SLA)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="sim-audience">Employee Audience</label>
+                <select class="form-select" id="sim-audience">
+                  <option value="Employee" selected>Employee</option>
+                  <option value="Manager">Manager</option>
+                  <option value="Candidate">Candidate</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="sim-date">As-Of Date</label>
+                <input class="form-input" type="date" id="sim-date" value="2026-11-10" />
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary" id="btn-run-simulation">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+              Execute Resolution Engine
+            </button>
+          </form>
+        </div>
+
+        <!-- Output Pipeline Side -->
+        <div class="card">
+          <div class="card-title">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+            Engine Resolution Pipeline
+          </div>
+          <div class="card-subtitle">Real-time trace of classification, ambiguity check, policy match, routing, and SLA prediction</div>
+
+          <!-- Final Decision Announcement Banner -->
+          <div id="sim-decision-card" class="decision-card answer">
+            <div class="decision-badge" id="sim-decision-badge">ANSWER_WITH_POLICY</div>
+            <h3 style="font-size: 1.25rem; font-weight: 800; margin-bottom: 0.35rem;" id="sim-decision-heading">Valid Policy Identified &amp; Verified</h3>
+            <p style="font-size: 0.88rem; opacity: 0.9;" id="sim-decision-summary">
+              The query matched the published HR policy with active version validity. Automated resolution snippet ready.
+            </p>
+          </div>
+
+          <!-- Pipeline Step Cards -->
+          <div class="pipeline-step">
+            <div class="step-num">1</div>
+            <div class="step-content">
+              <div class="step-title">
+                <span>Classification Engine</span>
+                <span id="step-class-conf" class="kpi-badge badge-blue">Confidence: 80%</span>
+              </div>
+              <div class="step-desc" id="step-class-reason">Rule-based pattern matching on category keywords.</div>
+              <div class="step-badge-group">
+                <span class="tag tag-policy" id="step-class-category">Category: benefits</span>
+                <span class="tag" id="step-class-sensitive" style="display:none; background:#fee2e2; color:#991b1b;">Sensitive: TRUE</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="pipeline-step">
+            <div class="step-num">2</div>
+            <div class="step-content">
+              <div class="step-title">
+                <span>Context &amp; Ambiguity Check</span>
+                <span id="step-ambiguity-status" class="kpi-badge badge-green">Clear Context</span>
+              </div>
+              <div class="step-desc" id="step-ambiguity-desc">Checks whether the employee provided sufficient actionable details or vague assistance cries.</div>
+            </div>
+          </div>
+
+          <div class="pipeline-step">
+            <div class="step-num">3</div>
+            <div class="step-content">
+              <div class="step-title">
+                <span>Smart Routing Engine</span>
+                <span id="step-routing-queue" class="kpi-badge badge-purple">Queue: HR_BENEFITS</span>
+              </div>
+              <div class="step-desc" id="step-routing-reason">Route calculated based on detected category and confidentiality safety policies.</div>
+            </div>
+          </div>
+
+          <div class="pipeline-step">
+            <div class="step-num">4</div>
+            <div class="step-content">
+              <div class="step-title">
+                <span>Policy Engine &amp; Citation</span>
+                <span id="step-policy-status" class="kpi-badge badge-green">Citation Valid</span>
+              </div>
+              <div class="step-desc" id="step-policy-text">
+                Referenced: <strong>VER-POL-HR-2026-001-03</strong> (HR Policy 001). Version effective date verified.
+              </div>
+            </div>
+          </div>
+
+          <div class="pipeline-step">
+            <div class="step-num">5</div>
+            <div class="step-content">
+              <div class="step-title">
+                <span>SLA Engine Prediction</span>
+                <span id="step-sla-hours" class="kpi-badge badge-blue">Target: 40.0h</span>
+              </div>
+              <div class="step-desc" id="step-sla-desc">
+                Calculates business hours between 9:00 AM and 5:00 PM, excluding weekends.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ==================== TAB 3: TICKET EXPLORER ==================== -->
+    <section id="tab-tickets" class="tab-content">
+      <div class="card">
+        <div class="card-title">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+          Audited Ticket Transactions
+        </div>
+        <div class="card-subtitle">Browse, search, and audit all 5,000 processed employee tickets with full decision traceability</div>
+
+        <!-- Table Filters & Search -->
+        <div class="table-controls">
+          <div class="search-bar">
+            <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+            <input type="text" class="search-input" id="table-search" placeholder="Search by Ticket ID, Employee ID, text..." />
+          </div>
+
+          <div class="filter-group">
+            <select class="form-select" id="filter-category" style="width: auto;">
+              <option value="">All Categories</option>
+              <option value="benefits">Benefits</option>
+              <option value="leave">Leave</option>
+              <option value="payroll">Payroll</option>
+              <option value="onboarding">Onboarding</option>
+              <option value="employee_relations">Employee Relations</option>
+            </select>
+
+            <select class="form-select" id="filter-decision" style="width: auto;">
+              <option value="">All Decisions</option>
+              <option value="ANSWER_WITH_POLICY">ANSWER_WITH_POLICY</option>
+              <option value="ESCALATE_TO_HR">ESCALATE_TO_HR</option>
+              <option value="REQUEST_CLARIFICATION">REQUEST_CLARIFICATION</option>
+            </select>
+
+            <select class="form-select" id="filter-sla" style="width: auto;">
+              <option value="">All SLA Status</option>
+              <option value="MET">MET</option>
+              <option value="BREACHED">BREACHED</option>
+            </select>
+
+            <select class="form-select" id="filter-sensitive" style="width: auto;">
+              <option value="">All Confidentiality</option>
+              <option value="true">Sensitive Cases Only</option>
+              <option value="false">Standard Cases</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Data Table -->
+        <div class="table-wrapper">
+          <table class="data-table" id="tickets-table">
+            <thead>
+              <tr>
+                <th>Ticket ID</th>
+                <th>Employee / Dept</th>
+                <th>Category</th>
+                <th>Inquiry Preview</th>
+                <th>Target Queue</th>
+                <th>Engine Decision</th>
+                <th>Policy Citation</th>
+                <th>SLA Status</th>
+                <th>Actual / Target</th>
+              </tr>
+            </thead>
+            <tbody id="tickets-table-body">
+              <tr>
+                <td colspan="9" style="text-align: center; padding: 2rem;">Loading tickets...</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Pagination -->
+        <div class="pagination-area">
+          <div>
+            Showing <span id="page-start">1</span> to <span id="page-end">20</span> of <span id="page-total">5,000</span> entries
+          </div>
+          <div class="pagination-btns">
+            <button class="btn btn-secondary" id="btn-prev-page" style="padding: 0.35rem 0.75rem;">Previous</button>
+            <span style="display: flex; align-items: center; padding: 0 0.5rem; font-weight: 600;" id="page-current-display">Page 1 / 250</span>
+            <button class="btn btn-secondary" id="btn-next-page" style="padding: 0.35rem 0.75rem;">Next</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ==================== TAB 4: POLICY KNOWLEDGE BASE ==================== -->
+    <section id="tab-policies" class="tab-content">
+      <div class="card">
+        <div class="card-title">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+          Policy Master Repository &amp; Versions
+        </div>
+        <div class="card-subtitle">Active, superseding, and draft versions across 30 enterprise HR policy documents</div>
+
+        <div id="policies-container">
+          <!-- Rendered dynamically -->
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ==================== TAB 5: VALIDATION & AUDIT ==================== -->
+    <section id="tab-validation" class="tab-content">
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-title">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            Data Integrity &amp; Relational Audit
+          </div>
+          <div class="card-subtitle">Synthetic dataset integrity validation against foreign keys and schemas</div>
+
+          <div style="display: flex; flex-direction: column; gap: 0.85rem; margin-top: 1rem;">
+            <div style="display: flex; justify-content: space-between; padding: 0.65rem; background: var(--slate-100); border-radius: 8px;">
+              <span>Department Foreign Keys</span>
+              <span class="tag tag-sla-met">100% Valid (0 Orphans)</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; padding: 0.65rem; background: var(--slate-100); border-radius: 8px;">
+              <span>Employee References</span>
+              <span class="tag tag-sla-met">100% Valid (0 Orphans)</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; padding: 0.65rem; background: var(--slate-100); border-radius: 8px;">
+              <span>Policy Version Linkages</span>
+              <span class="tag tag-sla-met">100% Valid</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; padding: 0.65rem; background: var(--slate-100); border-radius: 8px;">
+              <span>Deterministic Seed Reproducibility</span>
+              <span class="tag tag-sla-met">Verified (Seed 20261022)</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-title">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            Business Rules Enforcement Summary
+          </div>
+          <div class="card-subtitle">Compliance guardrails audited across 5,000 routine resolutions</div>
+
+          <div style="display: flex; flex-direction: column; gap: 0.85rem; margin-top: 1rem;">
+            <div style="display: flex; justify-content: space-between; padding: 0.65rem; background: var(--slate-100); border-radius: 8px;">
+              <span>Sensitive Case Isolation (Rule #1)</span>
+              <span class="tag tag-sla-met">100% Compliant (946 / 946)</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; padding: 0.65rem; background: var(--slate-100); border-radius: 8px;">
+              <span>SLA Target Adherence</span>
+              <span class="tag tag-sla-met">92.6% (4,630 Met / 370 Breached)</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; padding: 0.65rem; background: var(--slate-100); border-radius: 8px;">
+              <span>Policy Citation Integrity</span>
+              <span class="tag tag-sla-met">100% Active Versions Cited</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; padding: 0.65rem; background: var(--slate-100); border-radius: 8px;">
+              <span>Ambiguous Requests Clarified</span>
+              <span class="tag tag-sla-met">286 Requests Prompted</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== TICKET DETAIL MODAL / DRAWER ==================== -->
+  <div class="modal-overlay" id="ticket-modal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div>
+          <h2 style="font-size: 1.15rem; font-weight: 800;" id="modal-ticket-id">TKT-2026-000001</h2>
+          <div style="font-size: 0.78rem; color: var(--slate-500);" id="modal-ticket-meta">Created on 2026-01-02 • High Priority</div>
+        </div>
+        <button id="modal-close-btn" class="btn btn-secondary" style="padding: 0.35rem 0.65rem;">✕ Close</button>
+      </div>
+
+      <div class="modal-body">
+        <!-- Inquiry Text Card -->
+        <div style="background: var(--slate-100); padding: 1rem; border-radius: 10px; margin-bottom: 1.25rem;">
+          <div style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; color: var(--slate-500); margin-bottom: 0.25rem;">Inquiry Description</div>
+          <div style="font-size: 0.95rem; font-weight: 600; color: var(--slate-800);" id="modal-description">...</div>
+        </div>
+
+        <!-- 3-Column Attributes -->
+        <div class="grid-3" style="margin-bottom: 1.25rem;">
+          <div style="border: 1px solid var(--slate-200); padding: 0.85rem; border-radius: 8px;">
+            <div style="font-size: 0.72rem; color: var(--slate-500); font-weight: 600;">EMPLOYEE PROFILE</div>
+            <div style="font-weight: 700; margin-top: 0.2rem;" id="modal-employee-id">EMP-000151</div>
+            <div style="font-size: 0.8rem; color: var(--slate-600);" id="modal-employee-dept">Engineering • India</div>
+          </div>
+
+          <div style="border: 1px solid var(--slate-200); padding: 0.85rem; border-radius: 8px;">
+            <div style="font-size: 0.72rem; color: var(--slate-500); font-weight: 600;">ENGINE DECISION</div>
+            <div style="font-weight: 700; margin-top: 0.2rem;" id="modal-decision">ANSWER_WITH_POLICY</div>
+            <div style="font-size: 0.8rem; color: var(--slate-600);" id="modal-queue">Queue: HR_LEAVE</div>
+          </div>
+
+          <div style="border: 1px solid var(--slate-200); padding: 0.85rem; border-radius: 8px;">
+            <div style="font-size: 0.72rem; color: var(--slate-500); font-weight: 600;">SLA TRACKING</div>
+            <div style="font-weight: 700; margin-top: 0.2rem;" id="modal-sla-badge"><span class="tag tag-sla-met">SLA MET</span></div>
+            <div style="font-size: 0.8rem; color: var(--slate-600);" id="modal-sla-hours">Actual: 4.0h / Target: 24h</div>
+          </div>
+        </div>
+
+        <!-- Policy Citation Details -->
+        <div style="border: 1px solid #c7d2fe; background: #eef2ff; padding: 1rem; border-radius: 10px; margin-bottom: 1.25rem;" id="modal-policy-box">
+          <div style="font-size: 0.75rem; font-weight: 700; color: #4338ca; text-transform: uppercase;">Applicable Policy Reference</div>
+          <div style="font-weight: 700; font-size: 0.95rem; color: #1e1b4b; margin-top: 0.2rem;" id="modal-policy-title">HR Policy 001 (VER-POL-HR-2026-001-03)</div>
+          <div style="font-size: 0.82rem; color: #3730a3; margin-top: 0.4rem;" id="modal-policy-text">Synthetic policy content for POL-HR-2026-001, version 3</div>
+        </div>
+
+        <!-- Conversation Messages Timeline -->
+        <h3 style="font-size: 0.95rem; font-weight: 700; margin-top: 1rem; color: var(--slate-800);">Ticket Message Audit Trail</h3>
+        <div class="timeline" id="modal-timeline">
+          <!-- Messages will be injected here -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,16 @@
+{
+  "total_tickets": 5000,
+  "classified_tickets": 4704,
+  "sensitive_tickets": 946,
+  "ambiguous_tickets": 296,
+  "policy_citations_valid": 3758,
+  "routing_mismatches": 1089,
+  "clarification_requests": 286,
+  "escalations": 956,
+  "policy_answers": 3758,
+  "sla_met": 4630,
+  "sla_breached": 370,
+  "classification_rate": 94.08,
+  "routing_mismatch_rate": 21.78,
+  "sla_compliance_rate": 92.6
+}

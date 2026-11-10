@@ -1,0 +1,499 @@
+{
+  "errors": [],
+  "warnings": [],
+  "expected_anomalies": [
+    {
+      "rule": "SENSITIVE_ROUTING",
+      "ticket_id": "TKT-2026-004100",
+      "issue_type": "SENSITIVE_CASE_WRONG_QUEUE"
+    },
+    {
+      "ticket_id": "TKT-2026-000101",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-000103",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-000202",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-000206",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-000303",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-000309",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-000404",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-000412",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-000505",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-000515",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-000606",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-000618",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-000707",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-000721",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-000808",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-000824",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-000909",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-000927",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-001010",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-001030",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-001111",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-001133",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-001212",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-001236",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-001313",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-001339",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-001414",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-001442",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-001515",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-001545",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-001616",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-001648",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-001717",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-001751",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-001818",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-001854",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-001919",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-001957",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-002020",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-002060",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-002121",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-002163",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-002222",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-002266",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-002323",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-002369",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-002424",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-002472",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-002525",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-002575",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-002626",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-002678",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-002727",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-002781",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-002828",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-002884",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-002929",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-002987",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-003030",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-003090",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-003131",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-003193",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-003232",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-003296",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-003333",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-003399",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-003434",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-003502",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-003535",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-003605",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-003636",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-003708",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-003737",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-003811",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-003838",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-003914",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-003939",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-004017",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-004040",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-004120",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-004141",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-004223",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-004242",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-004326",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-004343",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-004429",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-004444",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-004532",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-004545",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-004635",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-004646",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-004738",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-004747",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-004841",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-004848",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-004944",
+      "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+      "classification": "KNOWN_TEST_ANOMALY"
+    },
+    {
+      "ticket_id": "TKT-2026-004949",
+      "issue_type": "OBSOLETE_POLICY_CITATION",
+      "classification": "KNOWN_TEST_ANOMALY"
+    }
+  ],
+  "error_count": 0,
+  "expected_anomaly_count": 98,
+  "passed": true
+}

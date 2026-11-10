@@ -1,0 +1,34 @@
+[
+  {
+    "category_id": "CAT-001",
+    "category_name": "benefits"
+  },
+  {
+    "category_id": "CAT-002",
+    "category_name": "leave"
+  },
+  {
+    "category_id": "CAT-003",
+    "category_name": "payroll"
+  },
+  {
+    "category_id": "CAT-004",
+    "category_name": "onboarding"
+  },
+  {
+    "category_id": "CAT-005",
+    "category_name": "employee_relations"
+  },
+  {
+    "category_id": "CAT-006",
+    "category_name": "harassment"
+  },
+  {
+    "category_id": "CAT-007",
+    "category_name": "discrimination"
+  },
+  {
+    "category_id": "CAT-008",
+    "category_name": "confidential_complaint"
+  }
+]

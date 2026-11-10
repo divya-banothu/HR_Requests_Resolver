@@ -1,0 +1,20 @@
+{
+  "project_name": "HR Policy Resolution System",
+  "seed": 20261022,
+  "year": 2026,
+  "scale": {
+    "employees": 1000,
+    "departments": 12,
+    "policy_documents": 30,
+    "policy_versions_per_document": 3,
+    "knowledge_articles": 150,
+    "tickets": 5000,
+    "messages": 20000
+  },
+  "business_hours": {
+    "start": "09:00",
+    "end": "17:00",
+    "working_days": [0, 1, 2, 3, 4]
+  },
+  "output_formats": ["csv", "json", "sql"]
+}

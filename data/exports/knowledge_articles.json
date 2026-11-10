@@ -1,0 +1,1052 @@
+[
+  {
+    "article_id": "KB-000001",
+    "category_id": "CAT-001",
+    "title": "HR Knowledge Article 001",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-001",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000002",
+    "category_id": "CAT-002",
+    "title": "HR Knowledge Article 002",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-001",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000003",
+    "category_id": "CAT-003",
+    "title": "HR Knowledge Article 003",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-001",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000004",
+    "category_id": "CAT-004",
+    "title": "HR Knowledge Article 004",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-002",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000005",
+    "category_id": "CAT-005",
+    "title": "HR Knowledge Article 005",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-002",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000006",
+    "category_id": "CAT-006",
+    "title": "HR Knowledge Article 006",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-002",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000007",
+    "category_id": "CAT-007",
+    "title": "HR Knowledge Article 007",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-003",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000008",
+    "category_id": "CAT-008",
+    "title": "HR Knowledge Article 008",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-003",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000009",
+    "category_id": "CAT-001",
+    "title": "HR Knowledge Article 009",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-003",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000010",
+    "category_id": "CAT-002",
+    "title": "HR Knowledge Article 010",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-004",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000011",
+    "category_id": "CAT-003",
+    "title": "HR Knowledge Article 011",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-004",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000012",
+    "category_id": "CAT-004",
+    "title": "HR Knowledge Article 012",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-004",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000013",
+    "category_id": "CAT-005",
+    "title": "HR Knowledge Article 013",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-005",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000014",
+    "category_id": "CAT-006",
+    "title": "HR Knowledge Article 014",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-005",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000015",
+    "category_id": "CAT-007",
+    "title": "HR Knowledge Article 015",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-005",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000016",
+    "category_id": "CAT-008",
+    "title": "HR Knowledge Article 016",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-006",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000017",
+    "category_id": "CAT-001",
+    "title": "HR Knowledge Article 017",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-006",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000018",
+    "category_id": "CAT-002",
+    "title": "HR Knowledge Article 018",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-006",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000019",
+    "category_id": "CAT-003",
+    "title": "HR Knowledge Article 019",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-007",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000020",
+    "category_id": "CAT-004",
+    "title": "HR Knowledge Article 020",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-007",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000021",
+    "category_id": "CAT-005",
+    "title": "HR Knowledge Article 021",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-007",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000022",
+    "category_id": "CAT-006",
+    "title": "HR Knowledge Article 022",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-008",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000023",
+    "category_id": "CAT-007",
+    "title": "HR Knowledge Article 023",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-008",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000024",
+    "category_id": "CAT-008",
+    "title": "HR Knowledge Article 024",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-008",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000025",
+    "category_id": "CAT-001",
+    "title": "HR Knowledge Article 025",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-009",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000026",
+    "category_id": "CAT-002",
+    "title": "HR Knowledge Article 026",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-009",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000027",
+    "category_id": "CAT-003",
+    "title": "HR Knowledge Article 027",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-009",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000028",
+    "category_id": "CAT-004",
+    "title": "HR Knowledge Article 028",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-010",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000029",
+    "category_id": "CAT-005",
+    "title": "HR Knowledge Article 029",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-010",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000030",
+    "category_id": "CAT-006",
+    "title": "HR Knowledge Article 030",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-010",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000031",
+    "category_id": "CAT-007",
+    "title": "HR Knowledge Article 031",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-011",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000032",
+    "category_id": "CAT-008",
+    "title": "HR Knowledge Article 032",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-011",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000033",
+    "category_id": "CAT-001",
+    "title": "HR Knowledge Article 033",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-011",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000034",
+    "category_id": "CAT-002",
+    "title": "HR Knowledge Article 034",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-012",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000035",
+    "category_id": "CAT-003",
+    "title": "HR Knowledge Article 035",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-012",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000036",
+    "category_id": "CAT-004",
+    "title": "HR Knowledge Article 036",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-012",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000037",
+    "category_id": "CAT-005",
+    "title": "HR Knowledge Article 037",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-013",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000038",
+    "category_id": "CAT-006",
+    "title": "HR Knowledge Article 038",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-013",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000039",
+    "category_id": "CAT-007",
+    "title": "HR Knowledge Article 039",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-013",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000040",
+    "category_id": "CAT-008",
+    "title": "HR Knowledge Article 040",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-014",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000041",
+    "category_id": "CAT-001",
+    "title": "HR Knowledge Article 041",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-014",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000042",
+    "category_id": "CAT-002",
+    "title": "HR Knowledge Article 042",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-014",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000043",
+    "category_id": "CAT-003",
+    "title": "HR Knowledge Article 043",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-015",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000044",
+    "category_id": "CAT-004",
+    "title": "HR Knowledge Article 044",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-015",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000045",
+    "category_id": "CAT-005",
+    "title": "HR Knowledge Article 045",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-015",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000046",
+    "category_id": "CAT-006",
+    "title": "HR Knowledge Article 046",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-016",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000047",
+    "category_id": "CAT-007",
+    "title": "HR Knowledge Article 047",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-016",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000048",
+    "category_id": "CAT-008",
+    "title": "HR Knowledge Article 048",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-016",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000049",
+    "category_id": "CAT-001",
+    "title": "HR Knowledge Article 049",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-017",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000050",
+    "category_id": "CAT-002",
+    "title": "HR Knowledge Article 050",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-017",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000051",
+    "category_id": "CAT-003",
+    "title": "HR Knowledge Article 051",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-017",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000052",
+    "category_id": "CAT-004",
+    "title": "HR Knowledge Article 052",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-018",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000053",
+    "category_id": "CAT-005",
+    "title": "HR Knowledge Article 053",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-018",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000054",
+    "category_id": "CAT-006",
+    "title": "HR Knowledge Article 054",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-018",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000055",
+    "category_id": "CAT-007",
+    "title": "HR Knowledge Article 055",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-019",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000056",
+    "category_id": "CAT-008",
+    "title": "HR Knowledge Article 056",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-019",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000057",
+    "category_id": "CAT-001",
+    "title": "HR Knowledge Article 057",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-019",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000058",
+    "category_id": "CAT-002",
+    "title": "HR Knowledge Article 058",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-020",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000059",
+    "category_id": "CAT-003",
+    "title": "HR Knowledge Article 059",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-020",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000060",
+    "category_id": "CAT-004",
+    "title": "HR Knowledge Article 060",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-020",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000061",
+    "category_id": "CAT-005",
+    "title": "HR Knowledge Article 061",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-021",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000062",
+    "category_id": "CAT-006",
+    "title": "HR Knowledge Article 062",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-021",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000063",
+    "category_id": "CAT-007",
+    "title": "HR Knowledge Article 063",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-021",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000064",
+    "category_id": "CAT-008",
+    "title": "HR Knowledge Article 064",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-022",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000065",
+    "category_id": "CAT-001",
+    "title": "HR Knowledge Article 065",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-022",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000066",
+    "category_id": "CAT-002",
+    "title": "HR Knowledge Article 066",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-022",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000067",
+    "category_id": "CAT-003",
+    "title": "HR Knowledge Article 067",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-023",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000068",
+    "category_id": "CAT-004",
+    "title": "HR Knowledge Article 068",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-023",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000069",
+    "category_id": "CAT-005",
+    "title": "HR Knowledge Article 069",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-023",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000070",
+    "category_id": "CAT-006",
+    "title": "HR Knowledge Article 070",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-024",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000071",
+    "category_id": "CAT-007",
+    "title": "HR Knowledge Article 071",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-024",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000072",
+    "category_id": "CAT-008",
+    "title": "HR Knowledge Article 072",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-024",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000073",
+    "category_id": "CAT-001",
+    "title": "HR Knowledge Article 073",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-025",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000074",
+    "category_id": "CAT-002",
+    "title": "HR Knowledge Article 074",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-025",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000075",
+    "category_id": "CAT-003",
+    "title": "HR Knowledge Article 075",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-025",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000076",
+    "category_id": "CAT-004",
+    "title": "HR Knowledge Article 076",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-026",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000077",
+    "category_id": "CAT-005",
+    "title": "HR Knowledge Article 077",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-026",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000078",
+    "category_id": "CAT-006",
+    "title": "HR Knowledge Article 078",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-026",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000079",
+    "category_id": "CAT-007",
+    "title": "HR Knowledge Article 079",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-027",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000080",
+    "category_id": "CAT-008",
+    "title": "HR Knowledge Article 080",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-027",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000081",
+    "category_id": "CAT-001",
+    "title": "HR Knowledge Article 081",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-027",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000082",
+    "category_id": "CAT-002",
+    "title": "HR Knowledge Article 082",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-028",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000083",
+    "category_id": "CAT-003",
+    "title": "HR Knowledge Article 083",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-028",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000084",
+    "category_id": "CAT-004",
+    "title": "HR Knowledge Article 084",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-028",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000085",
+    "category_id": "CAT-005",
+    "title": "HR Knowledge Article 085",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-029",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000086",
+    "category_id": "CAT-006",
+    "title": "HR Knowledge Article 086",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-029",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000087",
+    "category_id": "CAT-007",
+    "title": "HR Knowledge Article 087",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-029",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000088",
+    "category_id": "CAT-008",
+    "title": "HR Knowledge Article 088",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-030",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000089",
+    "category_id": "CAT-001",
+    "title": "HR Knowledge Article 089",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-030",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000090",
+    "category_id": "CAT-002",
+    "title": "HR Knowledge Article 090",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-030",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000091",
+    "category_id": "CAT-003",
+    "title": "HR Knowledge Article 091",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-001",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000092",
+    "category_id": "CAT-004",
+    "title": "HR Knowledge Article 092",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-001",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000093",
+    "category_id": "CAT-005",
+    "title": "HR Knowledge Article 093",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-001",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000094",
+    "category_id": "CAT-006",
+    "title": "HR Knowledge Article 094",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-002",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000095",
+    "category_id": "CAT-007",
+    "title": "HR Knowledge Article 095",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-002",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000096",
+    "category_id": "CAT-008",
+    "title": "HR Knowledge Article 096",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-002",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000097",
+    "category_id": "CAT-001",
+    "title": "HR Knowledge Article 097",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-003",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000098",
+    "category_id": "CAT-002",
+    "title": "HR Knowledge Article 098",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-003",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000099",
+    "category_id": "CAT-003",
+    "title": "HR Knowledge Article 099",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-003",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000100",
+    "category_id": "CAT-004",
+    "title": "HR Knowledge Article 100",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-004",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000101",
+    "category_id": "CAT-005",
+    "title": "HR Knowledge Article 101",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-004",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000102",
+    "category_id": "CAT-006",
+    "title": "HR Knowledge Article 102",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-004",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000103",
+    "category_id": "CAT-007",
+    "title": "HR Knowledge Article 103",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-005",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000104",
+    "category_id": "CAT-008",
+    "title": "HR Knowledge Article 104",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-005",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000105",
+    "category_id": "CAT-001",
+    "title": "HR Knowledge Article 105",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-005",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000106",
+    "category_id": "CAT-002",
+    "title": "HR Knowledge Article 106",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-006",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000107",
+    "category_id": "CAT-003",
+    "title": "HR Knowledge Article 107",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-006",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000108",
+    "category_id": "CAT-004",
+    "title": "HR Knowledge Article 108",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-006",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000109",
+    "category_id": "CAT-005",
+    "title": "HR Knowledge Article 109",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-007",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000110",
+    "category_id": "CAT-006",
+    "title": "HR Knowledge Article 110",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-007",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000111",
+    "category_id": "CAT-007",
+    "title": "HR Knowledge Article 111",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-007",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000112",
+    "category_id": "CAT-008",
+    "title": "HR Knowledge Article 112",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-008",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000113",
+    "category_id": "CAT-001",
+    "title": "HR Knowledge Article 113",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-008",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000114",
+    "category_id": "CAT-002",
+    "title": "HR Knowledge Article 114",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-008",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000115",
+    "category_id": "CAT-003",
+    "title": "HR Knowledge Article 115",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-009",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000116",
+    "category_id": "CAT-004",
+    "title": "HR Knowledge Article 116",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-009",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000117",
+    "category_id": "CAT-005",
+    "title": "HR Knowledge Article 117",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-009",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000118",
+    "category_id": "CAT-006",
+    "title": "HR Knowledge Article 118",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-010",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000119",
+    "category_id": "CAT-007",
+    "title": "HR Knowledge Article 119",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-010",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000120",
+    "category_id": "CAT-008",
+    "title": "HR Knowledge Article 120",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-010",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000121",
+    "category_id": "CAT-001",
+    "title": "HR Knowledge Article 121",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-011",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000122",
+    "category_id": "CAT-002",
+    "title": "HR Knowledge Article 122",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-011",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000123",
+    "category_id": "CAT-003",
+    "title": "HR Knowledge Article 123",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-011",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000124",
+    "category_id": "CAT-004",
+    "title": "HR Knowledge Article 124",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-012",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000125",
+    "category_id": "CAT-005",
+    "title": "HR Knowledge Article 125",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-012",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000126",
+    "category_id": "CAT-006",
+    "title": "HR Knowledge Article 126",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-012",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000127",
+    "category_id": "CAT-007",
+    "title": "HR Knowledge Article 127",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-013",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000128",
+    "category_id": "CAT-008",
+    "title": "HR Knowledge Article 128",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-013",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000129",
+    "category_id": "CAT-001",
+    "title": "HR Knowledge Article 129",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-013",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000130",
+    "category_id": "CAT-002",
+    "title": "HR Knowledge Article 130",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-014",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000131",
+    "category_id": "CAT-003",
+    "title": "HR Knowledge Article 131",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-014",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000132",
+    "category_id": "CAT-004",
+    "title": "HR Knowledge Article 132",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-014",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000133",
+    "category_id": "CAT-005",
+    "title": "HR Knowledge Article 133",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-015",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000134",
+    "category_id": "CAT-006",
+    "title": "HR Knowledge Article 134",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-015",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000135",
+    "category_id": "CAT-007",
+    "title": "HR Knowledge Article 135",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-015",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000136",
+    "category_id": "CAT-008",
+    "title": "HR Knowledge Article 136",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-016",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000137",
+    "category_id": "CAT-001",
+    "title": "HR Knowledge Article 137",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-016",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000138",
+    "category_id": "CAT-002",
+    "title": "HR Knowledge Article 138",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-016",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000139",
+    "category_id": "CAT-003",
+    "title": "HR Knowledge Article 139",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-017",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000140",
+    "category_id": "CAT-004",
+    "title": "HR Knowledge Article 140",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-017",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000141",
+    "category_id": "CAT-005",
+    "title": "HR Knowledge Article 141",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-017",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000142",
+    "category_id": "CAT-006",
+    "title": "HR Knowledge Article 142",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-018",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000143",
+    "category_id": "CAT-007",
+    "title": "HR Knowledge Article 143",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-018",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000144",
+    "category_id": "CAT-008",
+    "title": "HR Knowledge Article 144",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-018",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000145",
+    "category_id": "CAT-001",
+    "title": "HR Knowledge Article 145",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-019",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000146",
+    "category_id": "CAT-002",
+    "title": "HR Knowledge Article 146",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-019",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000147",
+    "category_id": "CAT-003",
+    "title": "HR Knowledge Article 147",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-019",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000148",
+    "category_id": "CAT-004",
+    "title": "HR Knowledge Article 148",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-020",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000149",
+    "category_id": "CAT-005",
+    "title": "HR Knowledge Article 149",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-020",
+    "status": "Published"
+  },
+  {
+    "article_id": "KB-000150",
+    "category_id": "CAT-006",
+    "title": "HR Knowledge Article 150",
+    "answer_snippet": "Refer to the applicable policy: POL-HR-2026-020",
+    "status": "Published"
+  }
+]

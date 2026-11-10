@@ -1,0 +1,23 @@
+{
+  "sensitive_categories": [
+    "employee_relations",
+    "harassment",
+    "discrimination",
+    "confidential_complaint"
+  ],
+  "confidentiality_restrictions": {
+    "Restricted": "HR_EMPLOYEE_RELATIONS",
+    "Internal": "HR_GENERAL",
+    "Public": "HR_GENERAL"
+  },
+  "category_queues": {
+    "benefits": "HR_BENEFITS",
+    "leave": "HR_LEAVE",
+    "payroll": "HR_PAYROLL",
+    "onboarding": "HR_ONBOARDING"
+  },
+  "fallback_queue": "HR_GENERAL",
+  "missing_context_action": "REQUEST_CLARIFICATION",
+  "unsupported_policy_action": "ESCALATE_TO_HR",
+  "obsolete_policy_action": "REJECT_POLICY_CITATION"
+}

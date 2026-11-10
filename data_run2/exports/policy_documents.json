@@ -1,0 +1,212 @@
+[
+  {
+    "policy_id": "POL-HR-2026-001",
+    "policy_title": "HR Policy 001",
+    "department_id": "DEPT-002",
+    "audience": "All",
+    "lifecycle_state": "Published"
+  },
+  {
+    "policy_id": "POL-HR-2026-002",
+    "policy_title": "HR Policy 002",
+    "department_id": "DEPT-003",
+    "audience": "Candidate",
+    "lifecycle_state": "Published"
+  },
+  {
+    "policy_id": "POL-HR-2026-003",
+    "policy_title": "HR Policy 003",
+    "department_id": "DEPT-004",
+    "audience": "All",
+    "lifecycle_state": "Published"
+  },
+  {
+    "policy_id": "POL-HR-2026-004",
+    "policy_title": "HR Policy 004",
+    "department_id": "DEPT-005",
+    "audience": "Manager",
+    "lifecycle_state": "Published"
+  },
+  {
+    "policy_id": "POL-HR-2026-005",
+    "policy_title": "HR Policy 005",
+    "department_id": "DEPT-006",
+    "audience": "Candidate",
+    "lifecycle_state": "Published"
+  },
+  {
+    "policy_id": "POL-HR-2026-006",
+    "policy_title": "HR Policy 006",
+    "department_id": "DEPT-007",
+    "audience": "All",
+    "lifecycle_state": "Published"
+  },
+  {
+    "policy_id": "POL-HR-2026-007",
+    "policy_title": "HR Policy 007",
+    "department_id": "DEPT-008",
+    "audience": "All",
+    "lifecycle_state": "Published"
+  },
+  {
+    "policy_id": "POL-HR-2026-008",
+    "policy_title": "HR Policy 008",
+    "department_id": "DEPT-009",
+    "audience": "Candidate",
+    "lifecycle_state": "Published"
+  },
+  {
+    "policy_id": "POL-HR-2026-009",
+    "policy_title": "HR Policy 009",
+    "department_id": "DEPT-010",
+    "audience": "All",
+    "lifecycle_state": "Published"
+  },
+  {
+    "policy_id": "POL-HR-2026-010",
+    "policy_title": "HR Policy 010",
+    "department_id": "DEPT-011",
+    "audience": "All",
+    "lifecycle_state": "Published"
+  },
+  {
+    "policy_id": "POL-HR-2026-011",
+    "policy_title": "HR Policy 011",
+    "department_id": "DEPT-012",
+    "audience": "All",
+    "lifecycle_state": "Published"
+  },
+  {
+    "policy_id": "POL-HR-2026-012",
+    "policy_title": "HR Policy 012",
+    "department_id": "DEPT-001",
+    "audience": "All",
+    "lifecycle_state": "Published"
+  },
+  {
+    "policy_id": "POL-HR-2026-013",
+    "policy_title": "HR Policy 013",
+    "department_id": "DEPT-002",
+    "audience": "Candidate",
+    "lifecycle_state": "Published"
+  },
+  {
+    "policy_id": "POL-HR-2026-014",
+    "policy_title": "HR Policy 014",
+    "department_id": "DEPT-003",
+    "audience": "Employee",
+    "lifecycle_state": "Published"
+  },
+  {
+    "policy_id": "POL-HR-2026-015",
+    "policy_title": "HR Policy 015",
+    "department_id": "DEPT-004",
+    "audience": "All",
+    "lifecycle_state": "Published"
+  },
+  {
+    "policy_id": "POL-HR-2026-016",
+    "policy_title": "HR Policy 016",
+    "department_id": "DEPT-005",
+    "audience": "Candidate",
+    "lifecycle_state": "Published"
+  },
+  {
+    "policy_id": "POL-HR-2026-017",
+    "policy_title": "HR Policy 017",
+    "department_id": "DEPT-006",
+    "audience": "Manager",
+    "lifecycle_state": "Published"
+  },
+  {
+    "policy_id": "POL-HR-2026-018",
+    "policy_title": "HR Policy 018",
+    "department_id": "DEPT-007",
+    "audience": "Manager",
+    "lifecycle_state": "Published"
+  },
+  {
+    "policy_id": "POL-HR-2026-019",
+    "policy_title": "HR Policy 019",
+    "department_id": "DEPT-008",
+    "audience": "All",
+    "lifecycle_state": "Published"
+  },
+  {
+    "policy_id": "POL-HR-2026-020",
+    "policy_title": "HR Policy 020",
+    "department_id": "DEPT-009",
+    "audience": "Candidate",
+    "lifecycle_state": "Published"
+  },
+  {
+    "policy_id": "POL-HR-2026-021",
+    "policy_title": "HR Policy 021",
+    "department_id": "DEPT-010",
+    "audience": "Employee",
+    "lifecycle_state": "Published"
+  },
+  {
+    "policy_id": "POL-HR-2026-022",
+    "policy_title": "HR Policy 022",
+    "department_id": "DEPT-011",
+    "audience": "Employee",
+    "lifecycle_state": "Published"
+  },
+  {
+    "policy_id": "POL-HR-2026-023",
+    "policy_title": "HR Policy 023",
+    "department_id": "DEPT-012",
+    "audience": "Candidate",
+    "lifecycle_state": "Published"
+  },
+  {
+    "policy_id": "POL-HR-2026-024",
+    "policy_title": "HR Policy 024",
+    "department_id": "DEPT-001",
+    "audience": "Candidate",
+    "lifecycle_state": "Published"
+  },
+  {
+    "policy_id": "POL-HR-2026-025",
+    "policy_title": "HR Policy 025",
+    "department_id": "DEPT-002",
+    "audience": "All",
+    "lifecycle_state": "Published"
+  },
+  {
+    "policy_id": "POL-HR-2026-026",
+    "policy_title": "HR Policy 026",
+    "department_id": "DEPT-003",
+    "audience": "Candidate",
+    "lifecycle_state": "Published"
+  },
+  {
+    "policy_id": "POL-HR-2026-027",
+    "policy_title": "HR Policy 027",
+    "department_id": "DEPT-004",
+    "audience": "All",
+    "lifecycle_state": "Published"
+  },
+  {
+    "policy_id": "POL-HR-2026-028",
+    "policy_title": "HR Policy 028",
+    "department_id": "DEPT-005",
+    "audience": "Manager",
+    "lifecycle_state": "Published"
+  },
+  {
+    "policy_id": "POL-HR-2026-029",
+    "policy_title": "HR Policy 029",
+    "department_id": "DEPT-006",
+    "audience": "Manager",
+    "lifecycle_state": "Published"
+  },
+  {
+    "policy_id": "POL-HR-2026-030",
+    "policy_title": "HR Policy 030",
+    "department_id": "DEPT-007",
+    "audience": "Manager",
+    "lifecycle_state": "Published"
+  }
+]

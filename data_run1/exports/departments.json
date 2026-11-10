@@ -1,0 +1,50 @@
+[
+  {
+    "department_id": "DEPT-001",
+    "department_name": "Human Resources"
+  },
+  {
+    "department_id": "DEPT-002",
+    "department_name": "Finance"
+  },
+  {
+    "department_id": "DEPT-003",
+    "department_name": "Engineering"
+  },
+  {
+    "department_id": "DEPT-004",
+    "department_name": "Sales"
+  },
+  {
+    "department_id": "DEPT-005",
+    "department_name": "Marketing"
+  },
+  {
+    "department_id": "DEPT-006",
+    "department_name": "Operations"
+  },
+  {
+    "department_id": "DEPT-007",
+    "department_name": "Customer Support"
+  },
+  {
+    "department_id": "DEPT-008",
+    "department_name": "Legal"
+  },
+  {
+    "department_id": "DEPT-009",
+    "department_name": "IT"
+  },
+  {
+    "department_id": "DEPT-010",
+    "department_name": "Recruitment"
+  },
+  {
+    "department_id": "DEPT-011",
+    "department_name": "Administration"
+  },
+  {
+    "department_id": "DEPT-012",
+    "department_name": "Compliance"
+  }
+]

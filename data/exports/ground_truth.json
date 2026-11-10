@@ -1,0 +1,1178 @@
+[
+  {
+    "ticket_id": "TKT-2026-000100",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_LEAVE",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "ANSWER_WITH_POLICY",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-000101",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_BENEFITS",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-000103",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_BENEFITS",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-000200",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_ONBOARDING",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "REQUEST_CLARIFICATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-000202",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_ONBOARDING",
+    "actual_queue": "HR_ONBOARDING",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-000206",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_BENEFITS",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-000300",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "ANSWER_WITH_POLICY",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-000303",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_BENEFITS",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-000309",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_PAYROLL",
+    "actual_queue": "HR_PAYROLL",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-000400",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_ONBOARDING",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "ANSWER_WITH_POLICY",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-000404",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_ONBOARDING",
+    "actual_queue": "HR_ONBOARDING",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-000412",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_BENEFITS",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-000500",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_ONBOARDING",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "ANSWER_WITH_POLICY",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-000505",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_BENEFITS",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-000515",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_BENEFITS",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-000600",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "ANSWER_WITH_POLICY",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-000606",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_BENEFITS",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-000618",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_BENEFITS",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-000700",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_LEAVE",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "ANSWER_WITH_POLICY",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-000707",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_LEAVE",
+    "actual_queue": "HR_LEAVE",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-000721",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_BENEFITS",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-000800",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "REQUEST_CLARIFICATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-000808",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_BENEFITS",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-000824",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_LEAVE",
+    "actual_queue": "HR_LEAVE",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-000900",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "ANSWER_WITH_POLICY",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-000909",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_BENEFITS",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-000927",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_BENEFITS",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-001000",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_PAYROLL",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "ANSWER_WITH_POLICY",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-001010",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_BENEFITS",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-001030",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_PAYROLL",
+    "actual_queue": "HR_PAYROLL",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-001100",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "REQUEST_CLARIFICATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-001111",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_BENEFITS",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-001133",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_ONBOARDING",
+    "actual_queue": "HR_ONBOARDING",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-001200",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_LEAVE",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "ANSWER_WITH_POLICY",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-001212",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_LEAVE",
+    "actual_queue": "HR_LEAVE",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-001236",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_BENEFITS",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-001300",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_LEAVE",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "ANSWER_WITH_POLICY",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-001313",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_ONBOARDING",
+    "actual_queue": "HR_ONBOARDING",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-001339",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_PAYROLL",
+    "actual_queue": "HR_PAYROLL",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-001400",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "ANSWER_WITH_POLICY",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-001414",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_BENEFITS",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-001442",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_LEAVE",
+    "actual_queue": "HR_LEAVE",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-001500",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "ANSWER_WITH_POLICY",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-001515",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_PAYROLL",
+    "actual_queue": "HR_PAYROLL",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-001545",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_LEAVE",
+    "actual_queue": "HR_LEAVE",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-001600",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "ANSWER_WITH_POLICY",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-001616",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_BENEFITS",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-001648",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_BENEFITS",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-001700",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_LEAVE",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "ANSWER_WITH_POLICY",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-001717",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_BENEFITS",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-001751",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_BENEFITS",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-001800",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_ONBOARDING",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "REQUEST_CLARIFICATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-001818",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_BENEFITS",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-001854",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_ONBOARDING",
+    "actual_queue": "HR_ONBOARDING",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-001900",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "REQUEST_CLARIFICATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-001919",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_PAYROLL",
+    "actual_queue": "HR_PAYROLL",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-001957",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_BENEFITS",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-002000",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_PAYROLL",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "ANSWER_WITH_POLICY",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-002020",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_ONBOARDING",
+    "actual_queue": "HR_ONBOARDING",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-002060",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_PAYROLL",
+    "actual_queue": "HR_PAYROLL",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-002100",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_LEAVE",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "ANSWER_WITH_POLICY",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-002121",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_ONBOARDING",
+    "actual_queue": "HR_ONBOARDING",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-002163",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_LEAVE",
+    "actual_queue": "HR_LEAVE",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-002200",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "REQUEST_CLARIFICATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-002222",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_BENEFITS",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-002266",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_LEAVE",
+    "actual_queue": "HR_LEAVE",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-002300",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_ONBOARDING",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "ANSWER_WITH_POLICY",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-002323",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_BENEFITS",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-002369",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_LEAVE",
+    "actual_queue": "HR_LEAVE",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-002400",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "ANSWER_WITH_POLICY",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-002424",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_LEAVE",
+    "actual_queue": "HR_LEAVE",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-002472",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_PAYROLL",
+    "actual_queue": "HR_PAYROLL",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-002500",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_ONBOARDING",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "ANSWER_WITH_POLICY",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-002525",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_BENEFITS",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-002575",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_BENEFITS",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-002600",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "ANSWER_WITH_POLICY",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-002626",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_LEAVE",
+    "actual_queue": "HR_LEAVE",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-002678",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_BENEFITS",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-002700",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "REQUEST_CLARIFICATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-002727",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_BENEFITS",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-002781",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_LEAVE",
+    "actual_queue": "HR_LEAVE",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-002800",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_LEAVE",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "ANSWER_WITH_POLICY",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-002828",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_BENEFITS",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-002884",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_PAYROLL",
+    "actual_queue": "HR_PAYROLL",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-002900",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "ANSWER_WITH_POLICY",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-002929",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_LEAVE",
+    "actual_queue": "HR_LEAVE",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-002987",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_BENEFITS",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-003000",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_ONBOARDING",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "ANSWER_WITH_POLICY",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-003030",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_LEAVE",
+    "actual_queue": "HR_LEAVE",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-003090",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_PAYROLL",
+    "actual_queue": "HR_PAYROLL",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-003100",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "REQUEST_CLARIFICATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-003131",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_BENEFITS",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-003193",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_BENEFITS",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-003200",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_LEAVE",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "ANSWER_WITH_POLICY",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-003232",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_LEAVE",
+    "actual_queue": "HR_LEAVE",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-003296",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_EMPLOYEE_RELATIONS",
+    "actual_queue": "HR_EMPLOYEE_RELATIONS",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-003300",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_LEAVE",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "ANSWER_WITH_POLICY",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-003333",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_LEAVE",
+    "actual_queue": "HR_LEAVE",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-003399",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_LEAVE",
+    "actual_queue": "HR_LEAVE",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-003400",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_PAYROLL",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "ANSWER_WITH_POLICY",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-003434",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_ONBOARDING",
+    "actual_queue": "HR_ONBOARDING",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-003500",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_PAYROLL",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "ANSWER_WITH_POLICY",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-003502",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_PAYROLL",
+    "actual_queue": "HR_PAYROLL",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-003535",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_LEAVE",
+    "actual_queue": "HR_LEAVE",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-003600",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_LEAVE",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "ANSWER_WITH_POLICY",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-003605",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_PAYROLL",
+    "actual_queue": "HR_PAYROLL",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-003636",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_LEAVE",
+    "actual_queue": "HR_LEAVE",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-003700",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_LEAVE",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "ANSWER_WITH_POLICY",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-003708",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_LEAVE",
+    "actual_queue": "HR_LEAVE",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-003737",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_LEAVE",
+    "actual_queue": "HR_LEAVE",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-003800",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "ANSWER_WITH_POLICY",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-003811",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_ONBOARDING",
+    "actual_queue": "HR_ONBOARDING",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-003838",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_ONBOARDING",
+    "actual_queue": "HR_ONBOARDING",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-003900",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_ONBOARDING",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "ANSWER_WITH_POLICY",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-003914",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_BENEFITS",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-003939",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_BENEFITS",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-004000",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "ANSWER_WITH_POLICY",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-004017",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_BENEFITS",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-004040",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_BENEFITS",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-004100",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_EMPLOYEE_RELATIONS",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "ESCALATE_TO_HR",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-004120",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_LEAVE",
+    "actual_queue": "HR_LEAVE",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-004141",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_ONBOARDING",
+    "actual_queue": "HR_ONBOARDING",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-004200",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "ANSWER_WITH_POLICY",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-004223",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_LEAVE",
+    "actual_queue": "HR_LEAVE",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-004242",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_EMPLOYEE_RELATIONS",
+    "actual_queue": "HR_EMPLOYEE_RELATIONS",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-004300",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_LEAVE",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "ANSWER_WITH_POLICY",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-004326",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_ONBOARDING",
+    "actual_queue": "HR_ONBOARDING",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-004343",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_PAYROLL",
+    "actual_queue": "HR_PAYROLL",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-004400",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_LEAVE",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "ANSWER_WITH_POLICY",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-004429",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_LEAVE",
+    "actual_queue": "HR_LEAVE",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-004444",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_BENEFITS",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-004500",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_ONBOARDING",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "ANSWER_WITH_POLICY",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-004532",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_BENEFITS",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-004545",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_BENEFITS",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-004600",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "ANSWER_WITH_POLICY",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-004635",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_ONBOARDING",
+    "actual_queue": "HR_ONBOARDING",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-004646",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_ONBOARDING",
+    "actual_queue": "HR_ONBOARDING",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-004700",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_LEAVE",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "ANSWER_WITH_POLICY",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-004738",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_PAYROLL",
+    "actual_queue": "HR_PAYROLL",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-004747",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_BENEFITS",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-004800",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_BENEFITS",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "ANSWER_WITH_POLICY",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-004841",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_LEAVE",
+    "actual_queue": "HR_LEAVE",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-004848",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_ONBOARDING",
+    "actual_queue": "HR_ONBOARDING",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-004900",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_LEAVE",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "ANSWER_WITH_POLICY",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-004944",
+    "issue_type": "UNSUPPORTED_POLICY_CLAIM",
+    "expected_queue": "HR_ONBOARDING",
+    "actual_queue": "HR_ONBOARDING",
+    "expected_action": "ESCALATE_UNSUPPORTED_CLAIM",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-004949",
+    "issue_type": "OBSOLETE_POLICY_CITATION",
+    "expected_queue": "HR_LEAVE",
+    "actual_queue": "HR_LEAVE",
+    "expected_action": "REJECT_OBSOLETE_POLICY_CITATION",
+    "ground_truth": "ANOMALY"
+  },
+  {
+    "ticket_id": "TKT-2026-005000",
+    "issue_type": "SENSITIVE_CASE_WRONG_QUEUE",
+    "expected_queue": "HR_ONBOARDING",
+    "actual_queue": "HR_GENERAL",
+    "expected_action": "ANSWER_WITH_POLICY",
+    "ground_truth": "ANOMALY"
+  }
+]

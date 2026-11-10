@@ -1,0 +1,9 @@
+{
+  "seed": 20261022,
+  "tickets": 5000,
+  "employees": 1000,
+  "articles": 150,
+  "messages": 20000,
+  "anomalies": 147,
+  "validation_errors": []
+}
