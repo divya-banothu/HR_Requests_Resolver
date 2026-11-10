@@ -414,6 +414,8 @@ python serve.py
 Then open your browser to:
 👉 **[http://127.0.0.1:8000](http://127.0.0.1:8000)**
 
+If this will not open then go to the folder --> C:\Users\divya\OneDrive\Documents\Hackathon\HR_Routine_Requests_Resolver\frontend\index.html
+
 *(Note: You can also double-click [`frontend/index.html`](file:///C:/Users/divya/OneDrive/Documents/Hackathon/HR_Routine_Requests_Resolver/frontend/index.html) to open the frontend directly in client preview mode without running the server).*
 
 ---
